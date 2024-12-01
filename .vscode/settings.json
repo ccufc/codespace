@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": ".*",
+        "cmd": "git add . && git commit -m \"$(date '+%a, %b %d, %Y, %I:%M %p %z')\" && git push origin main"
+      }
+    ]
+  }
+}
